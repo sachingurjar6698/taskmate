@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block  title %}
+    <title>Contact Us - Taskmate</title>
+{% endblock title %}
+
+{% block content %}
+<div class='container'>
+    
+    <img src="{% static 'images/cont.png' %}" width=100% height=35%></img><br><br><br>
+    <h5 align="center"><a href="https://www.linkedin.com/in/sachin-gurjar/" target="_blank"><img src="{% static 'images/link.jpg' %}" height=5% width=5%></img>&nbsp; &nbsp; Linkedin Profile</a></h5>
+    <h5 align="center"><a href="https://github.com/sachingurjar6698" target="_blank"><img src="{% static 'images/github.png' %}" height=5% width=5%></img>&nbsp; &nbsp; GitHub Profile</a></h5>
+    <h5 align="center"><a href="http://wa.me/9131476334" target="_blank"><img src="{% static 'images/whatsapp.jpg' %}" height=5% width=5%></img>&nbsp; &nbsp; Whatsapp Profile</a></h5>
+    <h5 align="center"><a href="https://www.instagram.com/sachin.gurjar_official/" target="_blank"><img src="{% static 'images/insta.jpg' %}" height=5% width=5%></img>&nbsp; &nbsp; Instagram Profile</a></h5><br>
+
+</div>
+{% endblock content %}

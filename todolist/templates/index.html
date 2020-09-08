@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block  title %}
+    <title>Welcome to  Taskmate!</title>
+{% endblock title %}
+
+{% block content %}
+<div class='container'>
+    <br>
+    <img src="{% static 'images/todoimg1.png' %}" height="430" width="350"></img>
+    <img src="{% static 'images/todoimg.png' %}" height="430" width="350"></img>
+    <img src="{% static 'images/todoimg2.jpg' %}" height="430" width="350"></img><br><br>
+    <h1 align="center" style="color:blue;">Quick And Easy To Use, Anytime, Anywhere!</h1><br>
+    <h2 align="center">"Plan Your Day Better, Get Your Life Organiged"</h2>
+    <h4 align="center">TASKMATE Lets You Keep Track Of Your Task In One Place.</h4><br><br>
+    <a href="{% url 'todolist' %}"><button type="button" class="btn btn-primary btn-lg btn-block">Lets Get Started</button></a><br><br><br>
+</div>
+{% endblock content %}
